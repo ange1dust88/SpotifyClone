@@ -1,0 +1,113 @@
+.header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.header__logo {
+    height: 32px;
+    cursor: pointer;
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+}
+
+.header__middle .header__home{
+    background-color: #1F1F1F;
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.header__middle .header__home:hover, .header__avatar:hover{
+    scale: 1.05;
+}
+
+
+.header__middle .header__browse{
+    border-left: 1px #B3B3B3 solid;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.header__icon{
+    transition: all 0.2s;
+}
+
+.header__icon:hover{
+    color:#fff;
+    scale: 1.02;
+}
+
+
+.header__search{
+    background-color: #1F1F1F;
+    border-radius: 30px;
+    padding: 8px 16px;
+    color: #B3B3B3;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #1F1F1F;
+    box-sizing: border-box;
+}
+.header__search:hover{
+    background-color: #2A2A2A;
+    border: 1px solid #404040;
+}
+
+.header__search:focus-within {
+    background-color: #2A2A2A;
+    border: 1px solid transparent;
+    outline: 2px solid #fff;
+}
+
+
+.header__search:hover .header__searchicon{
+    color: #fff;
+}
+
+.header__middle input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+    outline: none;
+    width: 300px; 
+}
+.header__middle input::placeholder {
+    color: #B3B3B3;
+}
+
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__notif{
+    color: #B3B3B3;
+    cursor: pointer;
+}
+
+.header__avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    object-fit: cover;
+    background-color: #1F1F1F;
+    padding: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+

@@ -1,0 +1,22 @@
+.login{
+    background-color: #111;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login__logo{
+    width: 40%;
+}
+
+.login__button{
+    background-color: #1db954;
+    padding: 20px;
+    border-radius: 99px;
+    font-weight: 800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+

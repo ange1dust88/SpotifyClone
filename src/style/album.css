@@ -1,0 +1,44 @@
+.album__body{
+    padding: 0 20px;
+}
+.album__headers{
+    display: grid;
+    grid-template-columns: 70px 20fr 100px; 
+    align-items: center;
+    justify-items: left;
+    transition: all 0.2s ease;
+    padding: 15px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #6d6d6d;
+    color: #b3b3b3;
+    margin: 0 25px 15px 25px;
+}
+.album__index{
+   padding-left: 30px;
+}
+
+.album__footer{
+    margin: 2rem 0;
+    padding-left: 50px;
+    font-size: 1rem;
+    color: #b3b3b3;
+}
+.album__details{
+    font-size: 0.7em;
+    display: flex;
+    gap: 0.15em; 
+}
+
+.album__more{
+    padding: 20px;
+}
+
+.album__albums{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 15px 0 30px 0;
+
+}

@@ -1,0 +1,10 @@
+.body{
+    flex: 3;
+    background-color: #121212;
+    color: #fff;
+    height: calc(100vh - 158px);
+    margin: 58px 7px 0px 0px;
+    border-radius: 8px;
+    overflow-y: scroll;
+    flex-shrink: 0
+}

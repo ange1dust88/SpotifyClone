@@ -1,0 +1,114 @@
+.profile__albums, .profile__related_artists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+
+.profile__discography, .profile__fans__also__like{
+    margin: 1em;
+}
+
+.profile__popular{
+    margin: 1em;
+}
+
+.profile__image__wrapper{
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+}
+
+.profile__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile__header{
+    display: flex;
+    align-items: flex-end;
+}
+.profile__info{
+    cursor: default;
+    margin: 40px;
+}
+.profile__name{
+    font-size: 8rem;
+    font-weight: 700;
+}
+.profile__followers{
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+.profile__controls {
+    display: flex;
+    align-items: center;
+    background: rgb(18,18,18); 
+    background: linear-gradient(180deg, rgba(18,18,18,0.3) 0%, rgba(18,18,18,1) 90%);
+
+}
+.profile__play{
+    font-size: 4.2rem;
+    padding: 20px;
+    color: #1ED760;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.profile__play:hover{
+    scale: 1.07;
+    color: #38DA72;
+}
+
+.profile__chapter__name{
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+.profile__toptracks__button{
+    border: none;
+    background-color: transparent;
+    color: #b3b3b3;;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 700;
+    transition: color 0.2s ease;
+    margin-left: 10px;
+
+}
+.profile__toptracks__button:hover{
+    color: #fff;
+}
+
+.profile__navs{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+.profile__nav{
+    background-color: #2A2A2A;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.8em;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    font-weight: 600;
+    margin-left: 0.8em;
+
+}
+
+
+.profile__nav:hover{
+    background-color: #333333;
+
+}
+
+.profile__navs .active{
+    background-color: #fff;
+    color: #000;
+}
+

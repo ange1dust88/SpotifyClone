@@ -1,0 +1,6 @@
+.player__body{
+    display: flex;
+}
+.player{
+    background-color: #000;
+}

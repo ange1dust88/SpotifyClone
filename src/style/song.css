@@ -1,0 +1,117 @@
+.song {
+    display: grid;
+    grid-template-columns: 70px 2fr 2fr 2fr 80px; 
+    align-items: center;
+    justify-items: left;
+    transition: all 0.2s ease;
+    padding-left: 5px;
+
+}
+
+.song .song__short{
+    text-decoration: none;
+}
+
+
+
+.song:hover {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+
+.song__index {
+    text-align: center;
+    padding-left: 30px;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.song__details {
+    display: flex;
+    align-items: center;
+}
+
+.song__imgwrapper {
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.song__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.song__title {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.song__author {
+    font-size: 0.8rem;
+    color: #b3b3b3;
+}
+
+.song__album,
+.song__date,
+.song__duration {
+    text-align: center;
+    color: #b3b3b3;
+}
+
+.song__icon, .song__icon__short{
+    position: absolute;
+    color:transparent;
+    margin-left: 3px;
+    margin-top: 3px;
+    transition: color 0.2s ease;
+}
+.song__index__short{
+    position: relative;
+}
+
+.song:hover .song__icon, .song__short:hover .song__icon__short{
+    color:#b3b3b3;
+    cursor: pointer;
+}
+.song:hover .song__index, .song__short:hover .song__index__short{
+    color: transparent;
+}
+.song:hover .song__author, .song:hover .song__album{
+    color: #fff;
+}
+
+.song__album, .song__title, .song__author{
+    transition: all 0.2s;
+}
+.song__album:hover, .song__title:hover, .song__author:hover{
+    text-decoration:underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.song__short {
+    display: grid;
+    grid-template-columns: 0.1fr 3fr 0.5fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+.song__short:hover {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+
+.song__details__short{
+    display: flex;
+    align-items: center;
+}
+

@@ -1,0 +1,78 @@
+.asong {
+    display: grid;
+    grid-template-columns: 70px 20fr 100px; 
+    align-items: center;
+    justify-items: left;
+    transition: all 0.2s ease;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+.asong:hover {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+
+.asong__index {
+    text-align: center;
+    padding-left: 30px;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.asong__details {
+    display: flex;
+    align-items: center;
+}
+
+
+.asong__title {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+.asong__artists{
+    font-size: 0.8rem;
+    color: #b3b3b3;
+}
+.asong__duration {
+    text-align: center;
+    color: #b3b3b3;
+}
+
+.asong__icon{
+    position: absolute;
+    color:transparent;
+    margin-left: 3px;
+    margin-top: 3px;
+    transition: color 0.2s ease;
+}
+.asong__index{
+    position: relative;
+}
+
+.asong:hover .asong__icon{
+    color:#b3b3b3;
+    cursor: pointer;
+}
+.asong:hover .asong__index{
+    color: transparent;
+}
+.asong:hover .asong__artist{
+    color: #fff;
+}
+
+.asong__album, .asong__title, .asong__artist{
+    transition: all 0.2s;
+}
+.asong__album:hover, .asong__title:hover, .asong__artist:hover{
+    text-decoration:underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+.asong__artists{
+    display: flex;
+}
