@@ -1,0 +1,30 @@
+.mainpage {
+    padding: 1rem;
+    overflow-x: hidden; 
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.mainpage::-webkit-scrollbar {
+    display: none;
+}
+
+.mainpage__container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    overflow-x: scroll; 
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+.mainpage__container::-webkit-scrollbar {
+    display: none; 
+}
+
+.mainpage__title {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}

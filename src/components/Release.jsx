@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Release({ albumId, image, name, date, type }) {
 
-  const year = date.match(/^\d{4}/)[0];
+  const year = date ? date.match(/^\d{4}/)?.[0] : ''; 
 
   const [{}, dispatch] = useDataLayerValue();
 
