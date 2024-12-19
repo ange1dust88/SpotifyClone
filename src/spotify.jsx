@@ -1,5 +1,5 @@
 const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:5173/";
+const redirectUri = "https://spotify88.netlify.app";
 const clientId = 'eba5e7f642054f3e9c5d35c28556235f';
 const scopes = [
     "user-read-currently-playing",
